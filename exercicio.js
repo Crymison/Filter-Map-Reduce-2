@@ -33,3 +33,5 @@ console.log(apps.filter(filtraGerente));
 
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
 
+const lowerCase = apps.map(app => app.appname.toLowerCase());
+console.log(lowerCase);
