@@ -28,5 +28,8 @@ console.log(somapp);
 
 // EXERCICIO 2: use filter() para selecionar somente apps com score maior que quatro (> 4) 
 
+const filtraGerente = (apps => apps.score > 4);
+console.log(apps.filter(filtraGerente));
+
 // EXERCICIO 3: use map() para mudar o atributo appname para lowerCase
 
